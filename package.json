@@ -1,6 +1,6 @@
 {
   "name": "naver-dict-search",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Naver dictionary searcher",
   "main": "dist/index.js",
   "scripts": {
