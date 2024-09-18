@@ -42,7 +42,7 @@ var SearchMethodValues = ["koko"];
  * @Method: Returns the means of query
  * @param { string } query - search query
  * @param { SearchMethod } type - search type ex) koko, enen
- * @Return: {string}
+ * @Return {string}
  */
 function search(query, type) {
     return __awaiter(this, void 0, void 0, function () {
