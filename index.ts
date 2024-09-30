@@ -5,7 +5,7 @@ type SearchType = (typeof SearchTypeValues)[number];
  * @Method: Returns the means of query
  * @param { string } query - search query
  * @param { SearchType } type - search type ex) koko, enen
- * @Return {string}
+ * @Return { string }
  */
 export async function search(query: string, type: SearchType) {
     if (query === undefined || SearchTypeValues.indexOf(type) === -1)

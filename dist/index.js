@@ -37,12 +37,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.search = search;
-var SearchMethodValues = ["koko"];
+var SearchTypeValues = ["koko", "enko", "ccko", "jako", "zhko", "frko", "esko", "deko"];
 /**
  * @Method: Returns the means of query
  * @param { string } query - search query
- * @param { SearchMethod } type - search type ex) koko, enen
- * @Return {string}
+ * @param { SearchType } type - search type ex) koko, enen
+ * @Return { string }
  */
 function search(query, type) {
     return __awaiter(this, void 0, void 0, function () {
@@ -50,7 +50,7 @@ function search(query, type) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    if (query === undefined || SearchMethodValues.indexOf(type) === -1)
+                    if (query === undefined || SearchTypeValues.indexOf(type) === -1)
                         throw new Error("Incorrect parameters");
                     wordUUIDSource = "https://ac-dict.naver.com/".concat(type, "/ac?st=1&r_lt=1&q=").concat(query);
                     return [4 /*yield*/, fetch(wordUUIDSource)];
