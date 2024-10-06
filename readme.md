@@ -5,8 +5,6 @@ Naver Dictionary Search는 네이버 사전에서 단어 정보를 자동으로 
 ## 프로젝트 정보
 
 -  **이름**: Naver Dictionary Search
--  **버전**: ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyeonfish6040%2FNaver-Dict-Search%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=version&label=version)
-
 -  **저자**: Yeonjun Lee <yeonfish6040@gmail.com>
 -  **라이센스**: ISC
 -  **홈페이지**: [GitHub Repository](https://github.com/yeonfish6040/Naver-Dict-Search![img.png](img.png)#readme)
